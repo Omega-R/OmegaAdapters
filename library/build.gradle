@@ -38,15 +38,15 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
     implementation "androidx.viewpager2:viewpager2:1.0.0"
 
     implementation "com.github.Omega-R:OmegaRecyclerView:1.9.8@aar"
     implementation 'com.github.Omega-R:OmegaClicks:1.0.0'
-    implementation 'com.github.Omega-R.OmegaTypes:omegatypes:b13922cbc7c77b1e1e4da9245fa0d58e94b9b289'
+    implementation 'com.github.Omega-R.OmegaTypes:omegatypes:2.0.3'
     implementation 'com.github.Omega-R:OmegaLaunchers:1.0.3'
 
-    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
