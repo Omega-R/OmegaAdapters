@@ -17,7 +17,7 @@ abstract class OmegaListAdapter<M, VH> : OmegaAdapter<VH>(), OmegaListableAdapte
     override var list: List<M> = emptyList()
         set(value) {
             field = value
-            notifyDataSetChanged()
+            tryNotifyDataSetChanged()
         }
 
     override fun getItemCount(): Int = list.size
